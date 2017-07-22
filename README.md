@@ -1,6 +1,8 @@
 # grid-line-intersection
 
-Based off one of this tutorial:
+Given two points on a grid, draw a line between them, keeping track of which tiles are intersected in the process. This is useful for finding a line of sight for a player in a tile-based 2D game, for example.
+
+Based off this tutorial:
 
 http://playtechs.blogspot.no/2007/03/raytracing-on-grid.html?m=1
 
