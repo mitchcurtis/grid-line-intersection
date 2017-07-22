@@ -4,7 +4,7 @@ Given two points on a grid, draw a line between them, keeping track of which til
 
 Based off this tutorial:
 
-http://playtechs.blogspot.no/2007/03/raytracing-on-grid.html?m=1
+http://playtechs.blogspot.com/2007/03/raytracing-on-grid.html
 
 ![grid-line-intersection screenshot](https://github.com/mitchcurtis/grid-line-intersection/blob/master/grid-line-intersection.gif "Grid Line Intersection")
 
