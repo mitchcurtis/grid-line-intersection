@@ -50,6 +50,9 @@ public:
 
     void setSizeInTiles(const QSize &sizeInTiles)
     {
+        if (sizeInTiles.width() < 1 || sizeInTiles.height() < 1)
+            return;
+
         if (sizeInTiles == mSizeInTiles)
             return;
 
