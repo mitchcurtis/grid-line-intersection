@@ -157,7 +157,7 @@ private:
 
         const QPoint startTile = startTilePos();
         const QPoint endTile = endTilePos();
-        // http://playtechs.blogspot.no/2007/03/raytracing-on-grid.html
+        // http://playtechs.blogspot.com/2007/03/raytracing-on-grid.html
         int x0 = startTile.x();
         int y0 = startTile.y();
         int x1 = endTile.x();
@@ -190,7 +190,7 @@ private:
             }
             else if (error == 0) {
                 // Ensure that perfectly diagonal lines don't take up more tiles than necessary.
-                // http://playtechs.blogspot.no/2007/03/raytracing-on-grid.html?showComment=1281448902099#c3785285092830049685
+                // http://playtechs.blogspot.com/2007/03/raytracing-on-grid.html?showComment=1281448902099#c3785285092830049685
                 x += x_inc;
                 y += y_inc;
                 error -= dy;
